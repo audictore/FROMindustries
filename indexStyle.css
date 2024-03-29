@@ -1,34 +1,85 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
     padding: 0%;
     margin: 0%;
+   
+    
 }
 
-header{
+header {
     width: 100%;
     height: 5vh;
-    background-color: blue;
+    backdrop-filter: blur(5px);
     display: flex;
+    justify-content: center;
     align-items: center;
+    position: fixed;
     
+}
+
+.inHeader{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inHeader a{
+    height: 2.5vh;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     
 }
 
-.leftHeader{
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 2%;
-
+.aContact{
+    color: #FFFFFF;
+    background-color: #29339B;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 30px;
 }
 
-.rightHeader{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 2%;
 
-}
 
-.logoImage{
+.logoImage {
     height: 2.5vh;   
 }
+
+.presentation {
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle at center top, #141530 0%, #000000 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.h1Presentation{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 72px;
+    background-image: linear-gradient( #FFFFFF, #90909A);
+    background-clip: text;
+    color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.h4Presentation{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    color: #90909A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
